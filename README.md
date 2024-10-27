@@ -1,6 +1,7 @@
 # SCSIknife
 
 SCSIknife - A compact and versatile SCSI emulator.
+
 Firmware compatible ZuluSCSI™ Pico OSHW derivative.
 
 <img width="600px" src="images/scsiknifeboard.jpg" />
@@ -16,6 +17,7 @@ SCSIknife is based on ZuluSCSI™ Pico, which can be found here:
 # Firmware
 
 This board is 100% compatible with ZuluSCSI™.
+
 As such, flashing instructions can be found [there](https://github.com/ZuluSCSI/ZuluSCSI-firmware?tab=readme-ov-file#programming--bootloader)
 
 # Gerber generation
@@ -24,11 +26,11 @@ This PCB was designed with Adobe Illustrator, and exported as SVG files.
 
 These SVG files are then converted to Gerber using the following tools:
 * [Gerbolyze](https://github.com/jaseg/gerbolyze)
-* [svg-to-gerber](https://github.com/Altomare/svg-to-gerber): for drill generation
+* [svg-to-gerber](https://github.com/Altomare/svg-to-gerber): gerbolyze wrapper + drill file generation
 
-If you need to re-generate gerbers, you can use the `svg-to-gerber.py` tool linked above:
+If you need to re-generate gerbers:
 ```shell
-# Illustrator uses 72 DPI instead of the usual 96 for SVG files, hence the 72 argument
+# Illustrator uses 72 DPI instead of the usual 96 for SVG files
 svg-to-gerber.py SCSIknife/svg SCSIknife/gerber 72
 
 # If you end up with a negative gerber on some layers, 
@@ -38,7 +40,6 @@ svg-to-gerber.py SCSIknife/svg SCSIknife/gerber 72
 
 # License
 
-SCSIknife inherits the license from ZuluSCSI Pico:
-CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+SCSIknife inherits the license from ZuluSCSI Pico: CERN-OHL-S-2.0
 
-See [CERN Open Hardware Licence Version 2](license.txt)
+See [license.txt](license.txt)
