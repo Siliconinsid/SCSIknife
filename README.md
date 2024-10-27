@@ -4,7 +4,7 @@ SCSIknife - A compact and versatile SCSI emulator.
 
 Firmware compatible ZuluSCSI™ Pico OSHW derivative.
 
-<img width="600px" src="images/scsiknifeboard.jpg" />
+<img width="600px" src="images/scsiknifeboard.png" />
 
 SCSIknife is based on ZuluSCSI™ Pico, which can be found here:
 * [PCB](https://github.com/ZuluSCSI/ZuluSCSI-Pico-OSHW)
