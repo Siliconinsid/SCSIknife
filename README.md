@@ -2,7 +2,7 @@
 
 SCSIknife - A compact and versatile SCSI emulator.
 
-Firmware compatible ZuluSCSI™ Pico OSHW derivative.
+ZuluSCSI™ Pico OSHW derivative, compatible with ZuluSCSI™ firmware.
 
 <img width="600px" src="images/scsiknifeboard.png" />
 
@@ -42,4 +42,4 @@ svg-to-gerber.py SCSIknife/svg SCSIknife/gerber 72
 
 SCSIknife inherits the license from ZuluSCSI Pico: CERN-OHL-S-2.0
 
-See [license.txt](license.txt)
+See [license.txt](LICENSE.txt)
