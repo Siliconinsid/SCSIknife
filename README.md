@@ -24,7 +24,7 @@ Error LED is connected to RP2040 GPIO25
 # Firmware
 
 SCSIknife is 100% compatible with the ZuluSCSI™ firmware.
-As such, flashing instructions can be found [there](https://github.com/ZuluSCSI/ZuluSCSI-firmware?tab=readme-ov-file#programming--bootloader) and instructions [there](https://github.com/ZuluSCSI/ZuluSCSI-firmware/blob/main/README.md)
+As such, flashing instructions can be found [there](https://github.com/ZuluSCSI/ZuluSCSI-firmware?tab=readme-ov-file#programming--bootloader)
 
 To update the firmware, press and hold the “Bootloader” button before plugging in the USB C connection to a computer. SCSIknife will appear as a drive on the desktop. Drop the new firmware file in `.uf2` format on the disk and SCSIknife will automatically update and disconnect itself upon completion. 
 
