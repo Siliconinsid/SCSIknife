@@ -1,6 +1,7 @@
 # SCSIknife
 
 SCSIknife - A compact and versatile SCSI emulator.
+
 SCSIknife is a ZuluSCSI™ Pico OSHW derivative, compatible with ZuluSCSI™ firmware.
 
 <img width="600px" src="images/scsiknifeboard.png" />
@@ -17,6 +18,7 @@ The HE-10 10-pin SD card extension connector use the following pinout:
 <img width="300px" src="images/sdextpinout.png" />
 
 Status LED is connected to RP2040 GPIO16
+
 Error LED is connected to RP2040 GPIO25
 
 # Firmware
