@@ -15,7 +15,7 @@ For host systems not providing SCSI termination power on the bus, SCSIknife can 
 
 The HE-10 10-pin SD card extension connector use the following pinout:
 
-<img width="300px" src="images/sdextpinout.png" />
+<img width="200px" src="images/sdextpinout.png" />
 
 Status LED is connected to RP2040 GPIO16
 
