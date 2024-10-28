@@ -21,6 +21,8 @@ Status LED is connected to RP2040 GPIO16
 
 Error LED is connected to RP2040 GPIO25
 
+SCSI DB25 connector is male, but can be replaced with DB25 female if soldered on the underside of the board.
+
 # Firmware
 
 SCSIknife is 100% compatible with the ZuluSCSI™ firmware.
