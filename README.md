@@ -34,7 +34,7 @@ If for some reason SCSIknife is unresponsive or if the wrong firmware is flashed
 
 # Accessories
 
-Andreas has kindly made available 3D printable files for a 3.5" bracket. 
+Andreas has kindly made available 3D printable file for a 3.5" bracket. 
 * [Andreas bracket](https://makerworld.com/fr/models/2948116-scsiknife-hdd-bracket)
 
 # Gerber generation
