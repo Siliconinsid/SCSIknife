@@ -32,6 +32,11 @@ To update the firmware, download the universal `.zip` archive and place it on a 
 Alternatively, place the PICO version of the `.bin` file on the SD card. Do not use the RP2040 or any RP2350 based versions.
 If for some reason SCSIknife is unresponsive or if the wrong firmware is flashed, restore by pressing and holding the “Bootloader” button before plugging in the USB C connection to a computer. SCSIknife will appear as a drive on the desktop. Drop the PICO firmware file in `.uf2` format on the disk and SCSIknife will automatically update and disconnect itself upon completion. 
 
+# Accessories
+
+Andreas has kindly made available 3D printable files for a 3.5" bracket. 
+* [Andreas bracket](https://makerworld.com/fr/models/2948116-scsiknife-hdd-bracket)
+
 # Gerber generation
 
 This PCB was designed with Adobe Illustrator, and exported as SVG files.
